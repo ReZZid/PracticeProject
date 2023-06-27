@@ -11,4 +11,5 @@ class MainWindowClass  : public QMainWindow
 public:
 	MainWindowClass(QWidget *parent = nullptr);
 	~MainWindowClass();
+	void setIntefaceStyle();
 };
