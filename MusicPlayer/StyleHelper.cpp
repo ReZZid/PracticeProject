@@ -10,7 +10,7 @@ QString StyleHelper::setButtonStyle()
 
 QString StyleHelper::setBackgroundStyle()
 {
-
+	return "";
 }
 
 void StyleHelper::setAllButtonsStyle(Ui::MainWindow* ui)
