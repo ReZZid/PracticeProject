@@ -7,7 +7,10 @@ class StyleHelper
 {
 public:
 	static QString setButtonStyle();
-	static QString setBackgroundStyle();
+	static void setBackgroundStyle(Ui::MainWindow* ui);
+	static QString setSliderStyle();
 	static void setAllButtonsStyle(Ui::MainWindow* ui);
+	static void setAllSlidersStyle(Ui::MainWindow* ui);
+	static void setLablesStyle(Ui::MainWindow* ui);
 };
 

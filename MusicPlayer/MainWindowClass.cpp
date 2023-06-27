@@ -15,4 +15,7 @@ MainWindowClass::~MainWindowClass()
 void MainWindowClass::setIntefaceStyle()
 {
 	StyleHelper::setAllButtonsStyle(ui);
+	StyleHelper::setAllSlidersStyle(ui);
+	StyleHelper::setBackgroundStyle(ui);
+	StyleHelper::setLablesStyle(ui);
 }
