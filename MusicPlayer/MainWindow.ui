@@ -6,28 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1227</width>
-    <height>921</height>
+    <width>580</width>
+    <height>353</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="1" rowspan="3" colspan="2">
-     <widget class="QTableWidget" name="tableWidget">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="cursor" stdset="0">
-       <cursorShape>ArrowCursor</cursorShape>
-      </property>
-     </widget>
-    </item>
     <item row="3" column="0" colspan="3">
      <layout class="QVBoxLayout" name="verticalLayout">
       <property name="spacing">
@@ -281,6 +271,24 @@
       </item>
      </layout>
     </item>
+    <item row="0" column="1" rowspan="3" colspan="2">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe Print</family>
+       </font>
+      </property>
+      <property name="cursor" stdset="0">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+     </widget>
+    </item>
     <item row="0" column="0">
      <widget class="QLabel" name="playlestsLabel">
       <property name="sizePolicy">
@@ -294,6 +302,23 @@
         <width>300</width>
         <height>0</height>
        </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Lucida Handwriting</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:2px;
+background-color:#616a6b;
+color:white;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
       </property>
       <property name="text">
        <string>Ваши плейлисты</string>
@@ -323,8 +348,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1227</width>
-     <height>22</height>
+     <width>580</width>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
