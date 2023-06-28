@@ -90,8 +90,22 @@ void StyleHelper::setAllSlidersStyle(Ui::MainWindow* ui)
 	ui->trackSlider->setStyleSheet(setSliderStyle());
 	ui->volumeSlider->setStyleSheet(setSliderStyle());
 }
-
+QString StyleHelper::setplaylestsLabelStyle()
+{
+	return
+		"QLabel {"
+		"background-color:#616a6b;"
+		"border: 1px solid #bbb;"
+		"border-radius: 4px;"
+		"color: white;"
+		"font-family:Snell Roundhand;"
+		"font-family:cursive;"
+		"}"
+		;
+}
 void StyleHelper::setLablesStyle(Ui::MainWindow* ui)
 {
 	ui->playlestsLabel->setStyleSheet("font-size: 20px; font-weight: bold; ");
+	ui->playlestsLabel->setStyleSheet(setplaylestsLabelStyle());
 }
+

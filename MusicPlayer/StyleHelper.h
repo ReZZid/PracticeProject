@@ -12,5 +12,6 @@ public:
 	static void setAllButtonsStyle(Ui::MainWindow* ui);
 	static void setAllSlidersStyle(Ui::MainWindow* ui);
 	static void setLablesStyle(Ui::MainWindow* ui);
+	static QString setplaylestsLabelStyle();
 };
 
